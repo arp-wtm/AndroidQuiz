@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Quiz</string>
+    <string name="start_button">clicca qui quando sei pronto</string>
+    <string name="android_shape_with_words_inside">forma android con parole chiave all\'interno</string>
+    <string name="observe_carefully">osserva attentamente</string>
+</resources>

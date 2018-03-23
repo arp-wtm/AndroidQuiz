@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/first_screen_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.antonella.androidquiz.MainActivity">
+        <TextView
+            android:id="@+id/observe_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/observe_carefully"/>
+        <ImageView
+            android:id="@+id/android_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_below="@id/observe_text_view"
+            android:contentDescription="@string/android_shape_with_words_inside"
+            android:src="@drawable/android_shape_keywords" />
+        <Button
+            android:id="@+id/start_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/android_image"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/start_button"
+            android:text="@string/start_button" />
+    </RelativeLayout>
+</ScrollView>

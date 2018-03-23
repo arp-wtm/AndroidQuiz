@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Android Quiz</string>
+    <string name="start_button">click here when ready</string>
+    <string name="android_shape_with_words_inside">android shape with keywords inside</string>
+    <string name="observe_carefully">observe carefully</string>
+</resources>
