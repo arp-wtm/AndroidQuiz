@@ -3,4 +3,6 @@
     <string name="start_button">click here when ready</string>
     <string name="android_shape_with_words_inside">android shape with keywords inside</string>
     <string name="observe_carefully">observe carefully</string>
+    <string name="submit">submit</string>
+    <string name="question_one">question_one</string>
 </resources>

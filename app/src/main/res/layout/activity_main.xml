@@ -15,6 +15,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
+            android:padding="8dp"
             android:text="@string/observe_carefully"/>
         <ImageView
             android:id="@+id/android_image"
