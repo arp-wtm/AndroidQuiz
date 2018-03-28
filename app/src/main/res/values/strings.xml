@@ -5,4 +5,17 @@
     <string name="observe_carefully">observe carefully</string>
     <string name="submit">submit</string>
     <string name="question_one">question_one</string>
+    <string name="select_Android_versions">select Android versions:</string>
+    <string name="JeallyBean">JeallyBean</string>
+    <string name="Ringo">Ringo</string>
+    <string name="question_two">question_two</string>
+    <string name="KitKat">KitKat</string>
+    <string name="submit_button">submit_button</string>
+    <string name="which_of_these_is_an_android_keyword">Which of these is an Android keyword</string>
+    <string name="converge">converge</string>
+    <string name="bool">bool</string>
+    <string name="priv">private</string>
+    <string name="what_is_the_name_of_8_0_version">What is the name of 8 Version?</string>
+    <string name="what_is_the_name_of_android_7_version">What is the name of Android 7 version?</string>
+    <string name="question_three">question_three</string>
 </resources>

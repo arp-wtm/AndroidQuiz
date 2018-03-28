@@ -5,4 +5,17 @@
     <string name="android_shape_with_words_inside">forma android con parole chiave all\'interno</string>
     <string name="observe_carefully">osserva attentamente</string>
     <string name="submit">invia</string>
+    <string name="question_one">domanda_uno</string>
+    <string name="select_Android_versions">seleziona le versioni Android</string>
+    <string name="JeallyBean">JeallyBean</string>
+    <string name="Ringo">Ringo</string>
+    <string name="question_two">domanda due</string>
+    <string name="KitKat">KitKat</string>
+    <string name="submit_button">submit_button</string>
+    <string name="converge">converge</string>
+    <string name="bool">bool</string>
+    <string name="which_of_these_is_an_android_keyword">Quale di queste è una keyword Android</string>
+    <string name="priv">private</string>
+    <string name="what_is_the_name_of_8_0_version">Qual è il nome della version 8</string>
+    <string name="what_is_the_name_of_android_7_version">Qual è il nome della versione 7</string>
 </resources>

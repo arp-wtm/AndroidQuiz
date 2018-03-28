@@ -15,7 +15,9 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:contentDescription="@string/question_one"
-            android:text="question one" />
+            android:text= "@string/select_Android_versions"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"/>
 
         <LinearLayout
             android:id="@+id/answer_one"
@@ -28,84 +30,98 @@
                 android:id="@+id/answer_checkbox_one"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="answer one"
-                android:textAppearance="?android:textAppearanceMedium" />
+                android:textAppearance="?android:textAppearanceMedium"
+                android:text= "@string/JeallyBean"/>
 
             <CheckBox
                 android:id="@+id/answer_checkbox_two"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="answer two"
-                android:textAppearance="?android:textAppearanceMedium" />
+                android:textAppearance="?android:textAppearanceMedium"
+                android:text= "@string/KitKat"/>
 
             <CheckBox
                 android:id="@+id/answer_checkbox_three"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="answer three"
-                android:textAppearance="?android:textAppearanceMedium" />
+                android:textAppearance="?android:textAppearanceMedium"
+                android:text= "@string/Ringo"/>
         </LinearLayout>
+
         <TextView
             android:id="@+id/question_two"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/answer_one"
-            android:contentDescription="question_two"
-            android:text="question two" />
+            android:contentDescription="@string/question_two"
+            android:text="@string/which_of_these_is_an_android_keyword"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"/>
+
         <RadioGroup
             android:id="@+id/answer_two"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/question_two"
             android:orientation="vertical">
+
             <RadioButton
                 android:id="@+id/radio_button_one"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="answer one"
-                android:textAppearance="?android:textAppearanceMedium" />
+                android:textAppearance="?android:textAppearanceMedium"
+                android:text= "@string/converge"/>
+
             <RadioButton
                 android:id="@+id/radio_button-two"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="answer two"
-                android:textAppearance="?android:textAppearanceMedium" />
+                android:textAppearance="?android:textAppearanceMedium"
+                android:text= "@string/bool"/>
+
             <RadioButton
                 android:id="@+id/radio_button-three"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="answer three"
+                android:text="@string/priv"
                 android:textAppearance="?android:textAppearanceMedium" />
 
         </RadioGroup>
+
         <TextView
             android:id="@+id/question_three"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/answer_two"
-            android:contentDescription="question_three"
-            android:text="question two" />
-        <TextView
+            android:contentDescription="@string/question_three"
+            android:text="@string/what_is_the_name_of_8_0_version"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <EditText
             android:id="@+id/answer_three"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/question_three"
-            android:contentDescription="question_two"
-            android:text="answer " />
+            android:contentDescription="answer three"
+            />
+
         <TextView
             android:id="@+id/question_four"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/answer_three"
             android:contentDescription="question_four"
-            android:text="question_four" />
-        <TextView
+            android:text="@string/what_is_the_name_of_android_7_version"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <EditText
             android:id="@+id/answer_four"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/question_four"
-            android:contentDescription="answer_four"
-            android:text="answer four" />
+            android:contentDescription="answer_four" />
 
 
         <Button
@@ -114,7 +130,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/answer_four"
             android:layout_centerHorizontal="true"
-            android:contentDescription="submit_button"
+            android:contentDescription="@string/submit_button"
             android:text="@string/submit" />
     </RelativeLayout>
 </ScrollView>
