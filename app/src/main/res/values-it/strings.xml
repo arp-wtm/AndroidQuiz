@@ -18,4 +18,8 @@
     <string name="priv">private</string>
     <string name="what_is_the_name_of_8_0_version">Qual è il nome della version 8</string>
     <string name="what_is_the_name_of_android_7_version">Qual è il nome della versione 7</string>
+    <string name="question_three">domanda tre</string>
+    <string name="answer_three">risposta tre</string>
+    <string name="question_four">domanda quattro</string>
+    <string name="answer_four">risposta quattro</string>
 </resources>

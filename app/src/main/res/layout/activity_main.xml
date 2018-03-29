@@ -9,6 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:context="com.example.antonella.androidquiz.MainActivity">
+
         <TextView
             android:id="@+id/observe_text_view"
             android:layout_width="wrap_content"
@@ -16,16 +17,18 @@
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:padding="8dp"
-            android:text="@string/observe_carefully"/>
+            android:text="@string/observe_carefully" />
+
         <ImageView
             android:id="@+id/android_image"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:scaleType="centerCrop"
-            android:adjustViewBounds="true"
             android:layout_below="@id/observe_text_view"
+            android:adjustViewBounds="true"
             android:contentDescription="@string/android_shape_with_words_inside"
+            android:scaleType="centerCrop"
             android:src="@drawable/android_shape_keywords" />
+
         <Button
             android:id="@+id/start_button"
             android:layout_width="match_parent"
