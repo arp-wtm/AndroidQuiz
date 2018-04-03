@@ -31,7 +31,7 @@ public class QuestionActivity extends AppCompatActivity {
     /* variable that will contain the number of correct answers*/
     static int score;
     /* variables to bind corresponding at correct answers*/
-    CheckBox answerOneChoiceOne, answerOneChoiceTwo;
+    CheckBox answerOneChoiceOne, answerOneChoiceTwo, answerOneChoiceThree;
     RadioButton answerTwo;
     EditText answerThree, answerFour;
 
@@ -43,6 +43,8 @@ public class QuestionActivity extends AppCompatActivity {
         answerOneChoiceOne = findViewById(R.id.answer_checkbox_one);
         /* find and bind the second CheckBox correct answer of the layout */
         answerOneChoiceTwo = findViewById(R.id.answer_checkbox_two);
+        /* find and bind the three CheckBox uncorrect answer of the layout */
+        answerOneChoiceThree = findViewById(R.id.answer_checkbox_three);
          /* find and bind the Three RadioButton choice correct answer of the layout */
         answerTwo = findViewById(R.id.radio_button_three);
          /* find and bind the EditText where user will input answer Three of the layout */
@@ -63,16 +65,16 @@ public class QuestionActivity extends AppCompatActivity {
 
                 /* when submit is clicked, update the variable score that contains number of correct answers*/
                 score = 0;
-                if (answerOneChoiceOne.isChecked() && answerOneChoiceTwo.isChecked()) {
+                if (answerOneChoiceOne.isChecked() && answerOneChoiceTwo.isChecked()  && !answerOneChoiceThree.isChecked()) {
                     score++;
                 }
                 if (answerTwo.isChecked()) {
                     score++;
                 }
-                if (answerThree.getText().toString().equalsIgnoreCase("Oreo")) {
+                if (answerThree.getText().toString().trim().equalsIgnoreCase("Oreo")) {
                     score++;
                 }
-                if (answerFour.getText().toString().equalsIgnoreCase("Nougat")) {
+                if (answerFour.getText().toString().trim().equalsIgnoreCase("Nougat")) {
                     score++;
                 }
                 /* display the total number of correct answers*/
